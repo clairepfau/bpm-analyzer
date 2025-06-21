@@ -1,6 +1,5 @@
 import librosa
 import numpy as np
-import matplotlib.pyplot as plt
 
 y, sr = librosa.load('test_sound_for_bpm_option1_170bpm.wav')
 
