@@ -1,7 +1,9 @@
 import librosa
 import numpy as np
 
-y, sr = librosa.load('test_sound_for_bpm_option1_170bpm.wav')
+
+
+y, sr = librosa.load('/home/claire/Code/bpm-analyzer/test_audio/test_sound_for_bpm_option1_170bpm.wav')
 
 print(f"Sample Rate: {sr} Hz") #print the sample rate in Hz
 print(f"Audio length: {len(y)} samples ---> {len(y)/sr} seconds") #samples / sample rate
